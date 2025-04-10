@@ -2,7 +2,7 @@ import app from './src/app.js'
 import * as dotenv from 'dotenv'; // necessário para leitura do arquivo de variáveis
 
 // definição de porta condicional do proxy ou na 3000
-const port = process.env.PORT || 3003; 
+const port = process.env.PORT || 3004; 
 
 // retorno no terminal com o link
 app.listen(port, () => {
